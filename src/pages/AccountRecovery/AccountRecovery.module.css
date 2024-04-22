@@ -1,0 +1,52 @@
+.accountRecoveryPage {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.accountRecoveryForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.sendCodeButton {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #6c757d;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sendCodeButton:hover {
+  background-color: #545b62;
+}
+
+.recoveryButton {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.recoveryButton:hover {
+  background-color: #1e7e34;
+}
